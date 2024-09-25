@@ -1,5 +1,5 @@
 nav {
-    background-color: steelblue;
+    background-color: rgb(163, 68, 5);
     padding: 10px;
 }
 nav a {
@@ -8,7 +8,26 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  
+h1 {
+    color: rgb(168, 89, 69);
+    text-align: center;
+    border: 30%;
 }
 img {
     width: 300px;
@@ -19,4 +38,10 @@ img {
 }
 p {
     padding: 10px;
+    color: rgb(42, 62, 143);
+    background-color: aquamarine;
+}
+
+footer{
+    color: rgb(211, 7, 126);
 }
